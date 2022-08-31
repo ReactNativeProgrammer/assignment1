@@ -1,7 +1,10 @@
 body{
     margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
-    /* font-family: 'Qwitcher Grypen', cursive; */
+}
+section{
+    padding: 0 100px;
 }
 h1{
     font-size: 50px;
@@ -16,27 +19,117 @@ a{
     color: #fff;
     border: none;
     border-radius: 3px;
+    display: inline-block;
+    margin-top: 5%;
 }
-section{
+.flexibleArea{
     display: flex;
-    padding: 100px 0;
+    padding: 100px;
+}
+h1.alignCenter{
+    text-align: center;
 }
 .halfWidth{
     width: 50%;
+}
+.halfWidth:last-child{
     padding-left: 7%;
 }
-.halfWidth img{
+ img{
     width: 80%;
 }
 .mrgTop{
+    padding-top: 5%;
+}
+.mrgTop2{
     padding-top: 8%;
+}
+.mrgTop3{
+    padding-top: 25%;
 }
 .orangeColor{
     color: orange;
 }
+/* header{
+    display: flex;
+    padding: 10px 20px;
+}
+.logo{
+    width: 50%;
+}
+.logo {
+
+}
+.logo h1{
+    color: #000;
+    background-image: none;
+    padding: 0;
+    motion: ;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    display: inline-block;
+    
+} */
 .leftBorder{
     padding-left: 15px;
     border-left: 4px solid;
     border-image: linear-gradient(orange, brown);
     border-image-slice: 1;
+}
+.missionDivs{
+    display: flex;
+}
+.missionDivs .thirdWidth{
+    width: 30%;
+    margin: 1.6%;
+    border-radius: 3%;
+    padding: 2%;
+}
+.colr1{
+    background-color: #4f9da634;
+}
+.colr2{
+    background-color: #ff595944;
+}
+.colr3{
+    background-color: #fff4d6be;
+}
+.thirdWidth img{
+    width: 30%;
+}
+.developArea{
+    background-image: url(../img/illustrators/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 0 40%;
+    background-size: 15%;
+}
+.communityArea{
+    background-image: url(../img/illustrators/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 92% 96%;
+    background-size: 15%;
+}
+.coddingImg{
+    padding-left: 5%;
+}
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+}
+.brownColor{
+    color: brown;
 }
